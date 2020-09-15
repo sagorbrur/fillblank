@@ -16,8 +16,10 @@ But now a days machine can fill the blanks smartly. Mask Language Modeling(MLM) 
 ## How to Use
 
 ```py
-from fillblank.fillblan import FillBlank
+from fillblank.fillblank import FillBlank
 text = "what a <blank>! She <blank> to eat."
 filltheblank = FillBlank()
-output, output_dictionary = filltheblank(text)
+output, output_dictionary = filltheblank.fill(text)
+# what a <mess>! she <needed> to eat.
 ```
+
