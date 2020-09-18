@@ -10,7 +10,7 @@ It was totally difficult for non native English learner to fill the blanks. And 
 
 But now a days machine can fill the blanks smartly. Mask Language Modeling(MLM) based language model give machine such power. 
 
-**FillBlank** is an BERT based package, can fill `cloze test without clues` type text. This package mostly build using [huggingface]() transformers.
+**FillBlank** is a [BERT](https://huggingface.co/bert-base-uncased) based package, can fill `cloze test without clues` type text. This package mostly build using [huggingface](https://huggingface.co/transformers) transformers.
 
 ## Installation 
 
