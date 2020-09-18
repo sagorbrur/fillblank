@@ -30,6 +30,8 @@ text = "what a <blank>! She <blank> to eat."
 filltheblank = FillBlank()
 output, output_dictionary = filltheblank.fill(text)
 print(output)
+print(output_dictionary['predict_words']) 
 # what a <mess>! she <needed> to eat.
+#['mess', 'needed']
 ```
 
