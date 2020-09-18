@@ -24,7 +24,7 @@ class FillBlank:
     sentences = tokens = nltk.tokenize.sent_tokenize(text)
     for sen in sentences:
       if '[MASK]' in sen:
-        res = unmasker(sen)
+        res = self.unmasker(sen)
         tokens = res[0]['sequence'].split()
         tokens = tokens[1:-1]
         result = " ".join(tokens)
@@ -44,10 +44,10 @@ class FillBlank:
 
 
 
-# if __name__ == "__main__":
-#     fillblank = FillBlank()
-#     text = "what a <blank>! She <blank> to eat."
-#     output, dic = fillblank.fill(text)
-#     print(output)
-#     print(dic['text'])
-#     print(dic['predict_words'])  
+if __name__ == "__main__":
+    fillblank = FillBlank()
+    text = "what a <blank>! She <blank> to eat."
+    output, dic = fillblank.fill(text)
+    print(output)
+    print(dic['text'])
+    print(dic['predict_words'])  
