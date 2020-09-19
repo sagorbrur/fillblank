@@ -28,12 +28,13 @@ pip install fillblank
 
 ```py
 from fillblank.fillblank import FillBlank
-text = "what a <blank>! She <blank> to eat."
+text = """Man is a rational being <blank> wisdom, intellect and sense of self-respect. He had immense <blank> in himself. 
+        It keeps him aloof from all sorts of evil <blank>. To become an ideal man he should <blank> the feelings of others."""
 filltheblank = FillBlank()
 output, output_dictionary = filltheblank.fill(text)
 print(output)
 print(output_dictionary['predict_words']) 
-# what a <mess>! she <needed> to eat.
-#['mess', 'needed']
+# man is a rational being <with> wisdom, intellect and sense of self - respect. he had immense <faith> in himself. it keeps him aloof from all sorts of evil <things>. to become # an ideal man he should <respect> the feelings of others. 
+# ['with', 'faith', 'things', 'respect']
 ```
 
