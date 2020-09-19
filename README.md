@@ -1,16 +1,16 @@
 # Fill Blank
-In our early education day, while learning english one of the most important task was to fill the blanks. 
+In our early education day, while learning English one of the most important tasks was to fill the blanks. 
 
-Two type of question was provided:
+Two types of question were provided:
 
 * Cloze test with clues
 * Cloze test without clues
 
-It was totally difficult for non native English learner to fill the blanks. And cloze test without cloze was the most trickier.
+It was totally difficult for non-native English learners to fill the blanks. And cloze test without cloze was the most tricky.
 
-But now a days machine can fill the blanks smartly. Mask Language Modeling(MLM) based language model give machine such power. 
+But nowadays the machine can fill the blanks smartly. Mask Language Modeling(MLM) based language model give machine such power. 
 
-**FillBlank** is a [BERT](https://huggingface.co/bert-base-uncased) based package, can fill `cloze test without clues` type text. This package mostly build using [huggingface](https://huggingface.co/transformers) transformers.
+**FillBlank** is a [BERT](https://huggingface.co/bert-base-uncased) based package, can fill `cloze test without clues` type text. This package mostly builds using [huggingface](https://huggingface.co/transformers) transformers.
 
 ## Installation 
 
