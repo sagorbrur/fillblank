@@ -1,4 +1,6 @@
 # Fill Blank
+[![Colab Notebook](https://img.shields.io/badge/notebook-colab%20notebook-orange)](https://github.com/sagorbrur/fillblank/blob/master/notebook/fillblank.ipynb)
+
 In our early education day, while learning English one of the most important tasks was to fill the blanks. 
 
 Two types of question were provided:
