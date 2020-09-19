@@ -26,7 +26,7 @@ pip install fillblank
 
 ## How to Fill The Blank
 
-keep in mind, one sentence can have not more than one sentence.
+keep in mind, one sentence can have not more than one <blank>.
 
 ```py
 from fillblank.fillblank import FillBlank
