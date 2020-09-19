@@ -26,6 +26,8 @@ pip install fillblank
 
 ## How to Fill The Blank
 
+keep in mind, one sentence can have not more than one sentence.
+
 ```py
 from fillblank.fillblank import FillBlank
 text = """Man is a rational being <blank> wisdom, intellect and sense of self-respect. He had immense <blank> in himself. 
